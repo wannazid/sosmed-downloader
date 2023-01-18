@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Social Media Downloader</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+</head>
+
+<body>
+  <div class="menu">
+		<ul>
+			<li class="sub-menu">
+			<a href="#">Menu Downloader</a>
+				<div class="sub-menu-konten">
+					<a href="/tiktok">Tiktok Downloader</a>
+					<a href="/titokmusik">Tiktok Music Downloader</a>
+					<a href="/instagram">Instagram Downloader</a>
+					<a href="/youtube">YouTube Video Downloader</a>
+					<a href="/youtubemp3">YouTube Music Downloader</a>
+				</div>
+			</li>
+			<li><a href="https://wa.me/6281328303820">Hubungi Kami</a></li>
+			<li><a href="https://www.malastech.my.id">Blog</a></li>
+		</ul>
+	</div>
+	
+  <h1 align="center">Social Media Downloader</h1>
+  <p align="center">Download video atau musik yang ada di sosial media dengan kualitas yang bagus.</p>
+  <h3>Menu Downloader</h3>
+  <p>
+    1. TikTok Video/Musik Downloader<br>
+    2. YouTube Video/Musik Downloader<br>
+    3. Instagram Video/Foto Downloade (Coming Soon)<br>
+  </p>
+  
+  
+  <div class="about">
+    <h3 align="center">About</h3>
+    <p align="center">Website yang menyediakan fitur downloader seperti TikTok, Instagram, YouTube, Twitter dan masih ada update lagi. Jika mengalami error silahkan lapor pada menu!</p>
+  </div>
+  
+  <div class="cara-download">
+    <h3 align="center">Cara Download</h3>
+    <p align="center">
+      1. Salin tautan video yang mau di download<br>
+      2. Jika sudah lalu tempel dan klik Download<br>
+      3. Masuk ke url video, tahan lama dan klik Download<br>
+      4. Selamat berhasil mendownload<br>
+    </p>
+  </div>
+  
+<div class="footer">© Copyright by Wannazid</div>
+  
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #2D3E50;
+    }
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #009973;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a{
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+.menu li a:hover, .sub-menu:hover {
+    opacity:0.9;
+    background-color: #08a07a;
+}
+
+.menu li.sub-menu {
+    display: inline-block;
+}
+
+.menu .sub-menu-konten {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    opacity: 1;
+    font-family: 'Patua One', cursive;
+}
+
+.menu .sub-menu-konten a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu .sub-menu-konten a:hover {
+    background-color: #50bf73;
+}
+
+.menu .sub-menu:hover .sub-menu-konten {
+    display: block;
+}
+
+h1{
+  font-family:  'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h3{
+  font-family:  'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.about {
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+}
+
+.cara-download {
+  font-family: 'Source Code Pro',monospace;
+  color: white;
+}
+
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   color: white;
+   text-align: center;
+   height:40px;   /* Contoh tinggi footer 60px */
+}
+</style>
+</body>
+</html>
